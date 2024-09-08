@@ -23,3 +23,8 @@ function calculateTip(billAmount, tipAmount) {
 }
   
 console.log(`Total bill amount: $${calculateTip(100, .15 + (totalBillAmount))}`);
+
+// Task 4: Utilize Arrays
+// Create an array called bills with the test data provided
+let bills = [275, 40, 430];
+let tips = bills.map
