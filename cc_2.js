@@ -4,6 +4,8 @@ let billAmount = 100;
 let tip
 let totalBillAmount = (tip + billAmount);
 
+// Task 2: Output Details
+
 // Created an if statement to calculate a 15% tip if the bill amount is within the $50-$300 range.
 if(50 <= billAmount <= 300){
     tip = billAmount * .15
@@ -11,5 +13,7 @@ if(50 <= billAmount <= 300){
     console.log("Tip Amount:$",tip);
     console.log("The total bill amount is:$",totalBillAmount);
 }
+
+function calculateTip():
   
 
