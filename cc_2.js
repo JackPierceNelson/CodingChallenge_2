@@ -14,6 +14,12 @@ if(50 <= billAmount <= 300){
     console.log("The total bill amount is:$",totalBillAmount);
 }
 
-function calculateTip():
-  
+// Task 3: Create a Function
 
+let tipAmount = .15;
+function calculateTip(billAmount, tipAmount) {
+    return billAmount * tipAmount;
+    
+}
+  
+console.log(`Total bill amount: $${calculateTip(100, .15 + (totalBillAmount))}`);
